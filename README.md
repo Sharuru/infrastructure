@@ -6,3 +6,4 @@ Implementing infrastructure as code.
 - deploy-rest-batch-pipe.groovy: jenkins script, used to deploy Spring Batch to specific servers in the past.
 - fake-backup.sh: fake backup job, called by cron to bypass the useless PMO security check :P
 - deploy-war: gitlab ci scripts to deploy war files to JBoss server.
+- deploy-batch: gitlab ci scripts to deploy Spring Batch to server.
