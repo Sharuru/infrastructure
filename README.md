@@ -9,3 +9,4 @@ Implementing infrastructure as code.
 - deploy-batch: gitlab ci scripts to deploy Spring Batch to server.
 - sync.sh: called by cron to sync between upstream git repostiory and local repository.
 - backup-prod.sh backup some webapp files to another server through many ways.
+- Count.java: count files under each folders.
