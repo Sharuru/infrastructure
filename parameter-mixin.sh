@@ -68,7 +68,7 @@ do
     mixinCount=$(($mixinCount+1))
 done < $2
 # 最後の改行文字を削除
-truncate -s -1 ${mixinFilePath}
+#truncate -s -1 ${mixinFilePath}
 
 echo "*************************************************"
 echo "パラメータミックスイン完了"
