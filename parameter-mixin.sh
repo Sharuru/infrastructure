@@ -17,17 +17,17 @@ _mixinLineNoPrefix="CSVEXP"
 echo "*************************************************"
 echo "バッチパラメータミックスイン"
 echo "*************************************************"
-echo "ミクスイン対象：$1"
+echo "ミックスイン対象：$1"
 echo "利用ンテンプレート：$2"
 echo "ミックスイン間隔：毎 $3 行"
 echo "*************************************************"
 
-# ミクスイン対象バックアップ
+# ミックスイン対象バックアップ
 #backupFileCount=$(ls -1q $1.bk.* 2> /dev/null | wc -l)
 #backupFileCount=$((${backupFileCount}+1))
 #backupFilePath=$1.bk.${backupFileCount}
 #cp -p $1 ${backupFilePath}
-#echo "ミクスイン対象バックアップ：${backupFilePath}"
+#echo "ミックスイン対象バックアップ：${backupFilePath}"
 
 # 新パラメータ作成
 mixinFilePath=$(dirname $1)/$(basename $1 .param)${_mixinFileSuffix}
